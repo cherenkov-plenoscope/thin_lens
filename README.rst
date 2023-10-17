@@ -18,11 +18,11 @@ This python-packag is about the thin-lens-equation:
 The focal-length of the imaging-optics: ``f``.
 The image-distance an image has from the aperture's principal plane: ``b``.
 The object-distance an object has from the aperture's principal plane: ``g``.
-The screen-distance a screen has from the aperture's principal plane: ``s``.
+The screen-distance a screen has from the aperture's principal plane: ``d``.
 
-Note that the screen-distance ``s`` is not part of the thin-lens-equation.
-In case ``s != b`` the image on the screen is `out of focus', thus blurred.
-Only when ``s == b`` the image on the screen is `in focus', thus sharp.
+Note that the screen-distance ``d`` is not part of the thin-lens-equation.
+In case ``d != b`` the image on the screen is `out of focus', thus blurred.
+Only when ``d == b`` the image on the screen is `in focus', thus sharp.
 
 *******
 Install
