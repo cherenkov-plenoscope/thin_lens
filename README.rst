@@ -9,8 +9,11 @@ This python-packag is about the thin-lens-equation:
 
 .. |ImgThinLens| image:: https://github.com/cherenkov-plenoscope/thin_lens/blob/main/readme/thin_lens_bokeh_overview_scale.svg?raw=True
 
-::
-     1/f = 1/g + 1/b
+.. code-block::
+
+     1     1     1
+    --- = --- + ---
+     f     g     b
 
 The focal-length of the imaging-optics: ``f``.
 The image-distance an image has from the aperture's principal plane: ``b``.
