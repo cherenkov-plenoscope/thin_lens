@@ -41,10 +41,22 @@ Usage
 
     import thin_lens
 
+    f = 1.0
+
     b = thin_lens.image_distance_for_object_distance(
         object_distance=100.0,
-        focal_length=1.0,
+        focal_length=f,
     )
+
+    assert b > f
+
+    print(b)
+
+gives:
+
+.. code-block::
+
+    1.0101010101010102
 
 
 .. |TestStatus| image:: https://github.com/cherenkov-plenoscope/thin_lens/actions/workflows/test.yml/badge.svg?branch=main
