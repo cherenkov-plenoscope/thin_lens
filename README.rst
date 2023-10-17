@@ -43,7 +43,7 @@ Usage
 
     f = 1.0
 
-    b = thin_lens.image_distance_for_object_distance(
+    b = thin_lens.compute_image_distance_for_object_distance(
         object_distance=100.0,
         focal_length=f,
     )
