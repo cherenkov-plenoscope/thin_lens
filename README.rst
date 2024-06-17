@@ -1,7 +1,7 @@
 ####################################
 The optics of the thin-lens-equation
 ####################################
-|TestStatus| |PyPiStatus| |BlackStyle| |PackStyleBlack| |LicenseBadge|
+|TestStatus| |PyPiStatus| |BlackStyle| |BlackPackStyle| |LicenseBadge|
 
 This python-packag is about the thin-lens-equation:
 
@@ -68,7 +68,7 @@ gives:
 .. |BlackStyle| image:: https://img.shields.io/badge/code%20style-black-000000.svg
     :target: https://github.com/psf/black
 
-.. |PackStyleBlack| image:: https://img.shields.io/badge/pack%20style-black-000000.svg
+.. |BlackPackStyle| image:: https://img.shields.io/badge/pack%20style-black-000000.svg
     :target: https://github.com/cherenkov-plenoscope/black_pack
 
 .. |LicenseBadge| image:: https://img.shields.io/badge/License-MIT-yellow.svg
